@@ -1,6 +1,17 @@
-Feature: GoogleChrome browser should open.
+Feature: Login different web pages
 
-  Scenario: GoogleChrome browser should open.
-    Given Valid GoogleChrome path
-    When I click on enter
-    Then GoogleChrome default page should open
+  Scenario: Login to facebook page with valid credentials
+    Given I am a chrome user
+    When I access facebook url
+    Then I see facebook homepage
+
+  Scenario: Login to Google page with valid credentials
+    Given I am a chrome user
+    When I access google url
+    Then I see google homepage
+
+  Scenario: Login to Amazon page with valid credentials
+    Given I am a chrome user
+    When I access Amazon url
+    Then I see Amazon homepage
+

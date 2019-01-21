@@ -1,0 +1,352 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Open Multi Windows",
+        "description": "",
+        "id": "multi-bank;open-multi-windows;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 26740324460,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am a chrome user",
+            "match": {
+              "location": "TestStepDef.step1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36158303320,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I access \"https://www.hsbc.com\" Website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.hsbc.com",
+                  "offset": 10
+                }
+              ],
+              "location": "TestStepDef.step8(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2152618402,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I can see \"HSBC\" homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HSBC",
+                  "offset": 11
+                }
+              ],
+              "location": "TestStepDef.step9(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Open Multi Windows",
+        "description": "",
+        "id": "multi-bank;open-multi-windows;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17870142889,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am a chrome user",
+            "match": {
+              "location": "TestStepDef.step1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7828594005,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I access \"https://www.barclays.co.uk\" Website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.barclays.co.uk",
+                  "offset": 10
+                }
+              ],
+              "location": "TestStepDef.step8(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1370437857,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I can see \"Barclays\" homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Barclays",
+                  "offset": 11
+                }
+              ],
+              "location": "TestStepDef.step9(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Open Multi Windows",
+        "description": "",
+        "id": "multi-bank;open-multi-windows;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4918046272,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am a chrome user",
+            "match": {
+              "location": "TestStepDef.step1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14033226021,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I access \"https://www.lloydsbank.com\" Website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.lloydsbank.com",
+                  "offset": 10
+                }
+              ],
+              "location": "TestStepDef.step8(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 800704740,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I can see \"Lloyds\" homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lloyds",
+                  "offset": 11
+                }
+              ],
+              "location": "TestStepDef.step9(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Multi Bank",
+    "description": "",
+    "id": "multi-bank",
+    "keyword": "Feature",
+    "uri": "Examples.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login to facebook page with valid credentials",
+        "description": "",
+        "id": "login-different-web-pages;login-to-facebook-page-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4312117528,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am a chrome user",
+            "match": {
+              "location": "TestStepDef.step1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6732096605,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I access facebook url",
+            "match": {
+              "location": "TestStepDef.step2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 731270008,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I see facebook homepage",
+            "match": {
+              "location": "TestStepDef.step3()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Login to Google page with valid credentials",
+        "description": "",
+        "id": "login-different-web-pages;login-to-google-page-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4353145308,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am a chrome user",
+            "match": {
+              "location": "TestStepDef.step1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7015604084,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I access google url",
+            "match": {
+              "location": "TestStepDef.step4()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 857540268,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I see google homepage",
+            "match": {
+              "location": "TestStepDef.step5()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Login to Amazon page with valid credentials",
+        "description": "",
+        "id": "login-different-web-pages;login-to-amazon-page-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3655002904,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am a chrome user",
+            "match": {
+              "location": "TestStepDef.step1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18772789876,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I access Amazon url",
+            "match": {
+              "location": "TestStepDef.step6()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7963455643,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I see Amazon homepage",
+            "match": {
+              "location": "TestStepDef.step7()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login different web pages",
+    "description": "",
+    "id": "login-different-web-pages",
+    "keyword": "Feature",
+    "uri": "test.feature"
+  }
+]
